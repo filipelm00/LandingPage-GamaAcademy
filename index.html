@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>eCommerce - Filipe</title>
+
+		<link rel="stylesheet" href="restaurar.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img src="assets/promoçãotitulo.jpg" alt="Promocao Title" class="imgtitle"></h1>
+
+			</div>
+		</header>
+
+		<main>
+			<form>
+
+				<div class="img">
+					<img src="assets/superpromocao.jpg" alt="Super Promocao">
+				</div>
+
+				<div>
+					
+					<h2>Informe os dados abaixo para receber mais promoções!</h2>
+
+					<label for="nomesobrenome">Nome e sobrenome</label>
+					<input type="text" id="nomesobrenome" class="input-padrao" required>
+				
+
+					<label for="email">Email</label>
+					<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+					<label for="telefone">Telefone</label>
+					<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+				</div>
+				
+				
+
+				<fieldset>
+					<legend>Como prefere o nosso contato?</legend>
+					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+					
+					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+					
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Qual horário prefere ser contatado?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+				
+				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+				<input type="submit" value="Enviar formulário" class="enviar">
+			</form>
+
+			
+		</main>
+
+		<footer style="background-color: white" >
+			<div class="footer">
+				<div class="promofooter">
+					<img src="assets/iphone12_cinza.png" alt="Iphone 12 Cinza" class="footerimg" style="width: 40%">
+					<div class="textpromofooter">
+						<h4>IPHONE 12s PRO 128GB</h4>
+						<h5>R$5.100,00</h5>
+						<h6>10x R$510,00</h6>
+					</div>
+				</div>
+
+				<div class="promofooter">
+					<img src="assets/zflip.png" alt="zflip violeta" class="footerimg" style="width: 40%">
+					<div class="textpromofooter">
+						<h4>SAMSUNG GALAXY ZFLIP 128GB</h4>
+						<h5>R$6.000,00</h5>
+						<h6>10x R$600,00</h6>
+					</div>
+				</div>
+
+				<div class="promofooter">
+					<img src="assets/s21.jpg" alt="S21" class="footerimg" style="width: 40%">
+					<div class="textpromofooter">
+						<h4>SAMSUNG S21 128GB</h4>
+						<h5>R$3.800,00</h5>
+						<h6>10x R$380,00</h6>
+					</div>
+				</div>
+			
+			</div>
+
+			<p class="copyright">&copy; Copyright eCommerce - Filipe</p>
+		</footer>
+	</body>
+</html>
